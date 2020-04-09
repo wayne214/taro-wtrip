@@ -33,22 +33,32 @@ class App extends Component {
       navigationBarTextStyle: 'black'
     },
     tabBar: {
+      color: '#bfbfbf',
+      selectedColor: '#1296db',
       list:[
         {
           pagePath: 'pages/index/index',
           text: '首页',
+          iconPath: 'assets/home.png',
+          selectedIconPath: 'assets/home_active.png'
         },
         {
           pagePath: 'pages/search/search',
           text: '搜索',
+          iconPath: 'assets/search.png',
+          selectedIconPath: 'assets/search_active.png'
         },
         {
           pagePath: 'pages/travel/travel',
           text: '旅拍',
+          iconPath: 'assets/camera.png',
+          selectedIconPath: 'assets/camera_active.png'
         },
         {
           pagePath: 'pages/me/me',
           text: '我的',
+          iconPath: 'assets/me.png',
+          selectedIconPath: 'assets/me_active.png'
         }
       ]
     }
